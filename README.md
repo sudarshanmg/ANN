@@ -4,16 +4,14 @@ This project implements a neural network for the MNIST dataset using Python.
 
 ## Project Structure
 
-- `Source`/
-- |-- `ANN`/
-- | |-- `Activation_functions`/
-- | | |-- `Tanh.py`
-- | |-- `Loss_functions`/
-- | | |-- `MSE.py`
-- | |-- `Activation.py`
-- | |-- `Network.py`
-- | |-- `Layer.py`
-- |-- `mnist_digits.py`
+.
+|-- Activation_functions/
+| |-- Tanh.py
+|-- Loss_functions/
+| |-- MSE.py
+|-- ANN/
+| |-- Network.py
+|-- mnist_digits.py
 
 ## Getting Started
 
