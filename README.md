@@ -2,16 +2,39 @@
 
 This project implements a neural network for the MNIST dataset using Python.
 
-## Project Structure
+Certainly! Here's an example project structure in markdown format:
 
+# Project Structure
+
+```plaintext
 .
 |-- Activation_functions/
-| |-- Tanh.py
+|   |-- Tanh.py
 |-- Loss_functions/
-| |-- MSE.py
+|   |-- MSE.py
 |-- ANN/
-| |-- Network.py
+|   |-- Network.py
 |-- mnist_digits.py
+|-- model_cache.joblib
+|-- model_dataset.joblib
+|-- README.md
+|-- requirements.txt
+|-- LICENSE
+```
+
+- **`Activation_functions/`**: Contains activation function implementations.
+
+  - **`Tanh.py`**: Implementation of the hyperbolic tangent activation function.
+
+- **`Loss_functions/`**: Contains loss function implementations.
+
+  - **`MSE.py`**: Implementation of the Mean Squared Error loss function.
+
+- **`ANN/`**: Directory for your neural network classes.
+
+  - **`Network.py`**: Implementation of the `Network` class.
+
+- **`mnist_digits.py`**: Main script or application where you use the neural network.
 
 ## Getting Started
 
