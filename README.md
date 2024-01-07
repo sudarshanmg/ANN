@@ -1,8 +1,6 @@
 # ANN in Python from SCRATCH
 
-This project implements a neural network for the MNIST dataset using Python.
-
-Certainly! Here's an example project structure in markdown format:
+This project implements a neural network class without using any ML library.
 
 # Project Structure
 
