@@ -10,6 +10,8 @@ Make sure you have the required Python environment set up and the necessary libr
 pip install numpy scikit-learn
 ```
 
+- scikit-learn has just been used to measure the accuracy.
+
 ## Classes Overview
 
 ### 1. `Dense`
@@ -42,11 +44,11 @@ The `ActivationLayer` applies an activation function to the layer's output.
 #### Usage:
 
 ```python
-from ANN.Activation import ActivationLayer
+from ANN.Activation import Activation
 from ANN.Activation_functions.Tanh import tanh, tanh_prime
 
 # Example: Creating an ActivationLayer with Tanh activation
-activation_layer = ActivationLayer(activation=tanh, activation_prime=tanh_prime)
+activation_layer = Activation(activation=tanh, activation_prime=tanh_prime)
 ```
 
 ### 3. `Network`
